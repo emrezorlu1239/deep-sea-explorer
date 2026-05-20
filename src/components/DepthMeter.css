@@ -1,0 +1,60 @@
+.depth-meter {
+  position: absolute;
+  top: 35px;
+  right: 16px;
+  bottom: 35px;
+  width: 70px;
+  pointer-events: none;
+}
+
+.meter-track {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 3px;
+  background: rgba(255,255,255,0.18);
+  border-radius: 2px;
+}
+
+.meter-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(100,220,255,0.9), rgba(200,100,255,0.9));
+  border-radius: 2px;
+  transition: height 0.08s ease;
+}
+
+.meter-dot {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #7fdfff;
+  border-radius: 50%;
+  transition: top 0.08s ease;
+}
+
+.meter-tick {
+  position: absolute;
+  right: 3px;
+  width: 6px;
+  height: 1px;
+  background: rgba(255,255,255,0.35);
+  transform: translateY(-50%);
+}
+
+.depth-label {
+  position: absolute;
+  right: 10px;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: right;
+  transition: top 0.08s ease;
+}
