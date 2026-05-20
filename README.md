@@ -30,7 +30,7 @@ npm install
 npm run dev
 
 ## Live Demo
-[View on Netlify](<your-netlify-url>)
+[View on Netlify](https://stately-pie-2130c4.netlify.app)
 
 ---
 Built as a frontend learning project.
